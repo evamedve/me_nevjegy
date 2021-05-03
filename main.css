@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.profile-card {
+  width: 500px;
+  max-width: calc(100vw - 10px);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.profile-image {
+  margin-top: -70px;
+}
+
+img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+   font-size: 28px;
+}
+
+li {
+  display: inline;
+}
+
+.head, .about {
+     margin-bottom: 7%;
+}
+
+.content {
+  padding: 3% 5%;
+}
+
+body {
+  background: url('assets/hatter2.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 90%, .5);
+  border-radius: 5px;
+  box-shadow: hsla(0, 0%, 0%, .5) 5px 5px 20px;
+}
+
+img {
+  padding: 1.5px;
+  background-color: #003326;
+  transition: all 0.7s ease-in-out;
+  filter: grayscale(50%);
+}
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -.002em;
+  line-height: 1.3;
+  font-size: 28px;
+  font-weight: normal;
+  color: #003326;
+ 
+}
+
+h2, p, span {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -.002em;
+  line-height: 1.3;
+  font-size: 15px;
+  font-weight: normal;
+  padding: 2px ;
+  display: block;
+}
+
+.fa-facebook-square, .fa-behance-square, .fa-instagram {
+  color:  #003326;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-facebook-square:hover, .fa-behance-square:hover, .fa-instagram:hover {
+  transform: scale(1.3);
+}
+
+.fa-map-marker {
+ color: #003326;
+ margin-right: 5px;
+}
+
+a {
+  color: #003326;
+}
+
+a:hover {
+ font-weight: bold;
+}
