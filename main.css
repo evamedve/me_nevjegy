@@ -29,8 +29,15 @@ body {
   margin: 0 auto;
 }
 
+.head {
+  position: relative;
+}
+
 .profile-image {
-  margin-top: -70px;
+  position: absolute;
+  top: -70px;
+  right: 0;
+  left: 0;
 }
 
 img {
@@ -124,3 +131,10 @@ a {
 a:hover {
  font-weight: bold;
 }
+
+.name-headline {
+  padding-top: 70px;
+}
+
+
+
